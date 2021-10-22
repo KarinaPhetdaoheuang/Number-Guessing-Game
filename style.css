@@ -6,18 +6,16 @@ body {
 * {
   box-sizing: border-box;
 }
-  
+ 
 body {
   background-color: #1e555c;
-  
-}
-
-body {
   border: 6px dotted #f4d8cd;
-  height: 275px;
-  width: 750px;
   margin: auto;
   text-align: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 p {
@@ -42,4 +40,13 @@ h1 {
 
 .guessField label {
   color: white;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {background-color: #1e555c}
+    }
+
+@media screen and (min-width: 800px) { 
+	body {background-color: #1e555c;}
+  
 }
