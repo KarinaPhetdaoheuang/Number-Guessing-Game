@@ -16,6 +16,8 @@ body {
   padding-right: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
+	min-width: 480px
+	max-width: 800px
 }
 
 p {
@@ -42,11 +44,4 @@ h1 {
   color: white;
 }
 
-@media only screen and (max-device-width: 480px) {
-  body {background-color: #1e555c}
-    }
 
-@media screen and (min-width: 800px) { 
-	body {background-color: #1e555c;}
-  
-}
