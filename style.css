@@ -7,4 +7,39 @@ body {
   box-sizing: border-box;
 }
   
-body {background-color: #6d6875;}
+body {
+  background-color: #1e555c;
+  
+}
+
+body {
+  border: 6px dotted #f4d8cd;
+  height: 275px;
+  width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  color: #f4d8cd;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+h1 {
+  color: #edb183;
+  text-align: center;
+}
+
+.guessSubmit {
+  color: #1e555c;
+}
+
+.guessField {
+  color: #1e555c;
+}
+
+.guessField label {
+  color: white;
+}
